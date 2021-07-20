@@ -1,0 +1,407 @@
+@charset "utf-8";
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+/*---------------------------------------------------------------------------------------*/
+.header1{
+	position: relative;
+	top:0px;
+	height:45px;
+	background-color: #b3e260;
+}
+
+		.header1 img{
+			position: absolute;
+			top:-2px;
+			left: 80px;
+		}
+		.header1 h4{
+			position: absolute;
+			top:-8px;
+			right: 120px;
+			padding:5px;
+			font-size: 13px;
+			background-color: #E4E1E1;
+			box-shadow: 2px 2px 2px 
+		}
+		.header1 h4:hover {
+			opacity: 0.5;
+		}
+		.header1 form{
+			position: absolute;
+			top:12px;
+			right: 200px;
+		}	
+	
+.header2{
+	position: relative;
+	height: 120px;
+		}
+/*---------------------------------------------------------------------------------------*/
+
+.banner1{
+	position: relative;
+	height: 550px;
+}
+
+		/*--Start Slide-------------------------------------------------------------------------------------*/
+		.mySlides {display: none}
+		img {vertical-align: middle;}
+
+		/* Slideshow container */
+		.slideshow-container {
+		  max-width: 1500px;
+		  position: relative;
+		  margin: auto;
+		}
+
+		/* Next & previous buttons */
+		.prev, .next {
+		  cursor: pointer;
+		  position: absolute;
+		  top: 50%;
+		  width: auto;
+		  padding: 16px;
+		  margin-top: -22px;
+		  color: white;
+		  font-weight: bold;
+		  font-size: 18px;
+		  transition: 0.6s ease;
+		  border-radius: 0 3px 3px 0;
+		  user-select: none;
+		}
+
+		/* Position the "next button" to the right */
+		.next {
+		  right: 0;
+		  border-radius: 3px 0 0 3px;
+		}
+
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover, .next:hover {
+		  background-color: rgba(0,0,0,0.8);
+		}
+
+		/* Caption text */
+		.text {
+		  color: #25CCBB;
+		  font-size: 60px;
+		  padding: 8px 12px;
+		  position: absolute;
+		  top: 200px;
+		  right: 150px;
+			font-weight: Bold;
+		  text-align: center;
+		}
+
+		/* The dots/bullets/indicators */
+		.dot {
+		  cursor: pointer;
+		  height: 15px;
+		  width: 15px;
+		  margin: 0 2px;
+		  background-color: #bbb;
+		  border-radius: 50%;
+		  display: inline-block;
+		  transition: background-color 0.6s ease;
+		}
+
+		.active, .dot:hover {
+		  background-color: #717171;
+		}
+
+		/* Fading animation */
+		.fade {
+		  -webkit-animation-name: fade;
+		  -webkit-animation-duration: 1.5s;
+		  animation-name: fade;
+		  animation-duration: 1.5s;
+		}
+
+		@-webkit-keyframes fade {
+		  from {opacity: .4} 
+		  to {opacity: 1}
+		}
+
+		@keyframes fade {
+		  from {opacity: .4} 
+		  to {opacity: 1}
+		}
+
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 300px) {
+		  .prev, .next,.text {font-size: 11px}
+		}
+			/*--End Slide-------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------*/
+.banner2{
+	position: relative;
+	height: 400px;
+	}
+		.banner2 .dropdown1{
+			position: absolute;
+			top:30px;
+			left: 600px;
+			font-size: 20px;
+			font-weight: Bold;
+			}
+		.banner2 .dropcontent{
+			display:none;
+			padding:10px;
+			background-color: #E9E8E7;
+			font-weight: normal;
+			font-style:italic;
+			color:black;
+			width: 80%;
+			border: 5px solid #2A7A04;
+		}
+		.banner2 .dropdown1:hover .dropcontent{
+				display: block;
+				}
+		.banner2 .dropdown1 h3{
+			padding:7px;
+			width:150px;
+			color:#05A841;
+			background: #AAF1F7;
+			text-align: center;
+		}
+		.banner2 .dropdown1 h3:hover{
+			padding:7px;
+			width:150px;
+			color:black;
+			background-color: white;
+			text-align: center;
+		}
+		.banner2 .dropdown2{
+			position: absolute;
+			top:30px;
+			left: 800px;
+			font-size: 20px;
+			font-weight: Bold;
+			color:#05A841;
+		}
+		.banner2 .dropdown2:hover .dropcontent{
+				display: block;
+		}
+		.banner2 .dropdown2 h3{
+			padding:7px;
+			width:150px;
+			color:#05A841;
+			background: #AAF1F7;
+			text-align: center;
+		}
+		.banner2 .dropdown2 h3:hover{
+			padding:7px;
+			width:150px;
+			color:black;
+			background-color: white;
+			text-align: center;
+		}
+		.banner2 .dropdown3{
+			position: absolute;
+			top:30px;
+			left: 1000px;
+			font-size: 20px;
+			font-weight: Bold;
+			color:#05A841;
+		}
+		.banner2 .dropdown3:hover .dropcontent{
+				display: block;
+		}
+		.banner2 .dropdown3 h3{
+			padding:7px;
+			width:150px;
+			color:#05A841;
+			background: #AAF1F7;
+			text-align: center;
+		}
+		.banner2 .dropdown3 h3:hover{
+			padding:7px;
+			width:150px;
+			color:black;
+			background-color: white;
+			text-align: center;
+		}
+/*---------------------------------------------------------------------------------------*/
+.banner3{
+	position: relative;
+	height: 500px;
+	background-color:#e0f3f1;	
+	}
+		.banner3 h2{
+			position: absolute;
+			top:30px;
+			left: 31%;
+			text-align: center;
+			font-size: 20px;
+			}
+		.banner3 .grid-container{
+			position: absolute;
+			top:150px;
+			left: 270px;
+			width: 90%;
+			display: grid;
+			grid-template-columns: auto auto auto;
+			}	
+		.banner3 .item{
+			width: 260px;
+			text-align: center;	
+			color:black;	
+		}
+		.banner3 h4{
+			position: absolute;
+			text-align: center;
+			top:400px;
+			left: 45%;
+			padding:10px;
+			color: white;
+			background-color: #74d8ce;
+		}
+		.banner3 h4:hover {
+			color:black;
+			background-color:white;
+		}
+/*---------------------------------------------------------------------------------------*/
+.banner4{
+	position: relative;
+	height: 1250px;
+	}
+		.banner4 .grid-container{
+			position: relative;
+			top:50px;
+			left: 200px;
+			width: 90%;
+			display: grid;
+			grid-template-columns: auto auto;
+			}	
+		.banner4 .item{
+			position: relative;
+			width: 70%;
+			text-align: center;	
+			color:black;	
+		}
+		.banner4 .item1{
+			top:100px;
+			text-align:justify;
+			font-size: 17px;
+		}
+		.banner4 .item4{
+			top:100px;
+			text-align:justify;
+			font-size: 17px;
+		}
+		.banner4 .item5{
+			top:100px;
+			text-align:justify;
+			font-size: 17px;
+		}
+/*---------------------------------------------------------------------------------------*/
+.banner5{
+	position: relative;
+	height: 1400px;
+	background-color: #E5EFD2;
+}
+		.banner5 h1{
+			position: relative;
+			left: 46%;
+			top:25px;
+			color:#074896;
+			font-size: 50px;
+			height:20px;
+		}
+		.banner5 .grid-container{
+			position: relative;
+			top:50px;
+			left: 200px;
+			width: 90%;
+			display: grid;
+			
+			grid-template-columns: auto auto auto;
+			}	
+		.banner5 .item{
+			position: relative;
+			padding: 10px;
+			width: 70%;
+			text-align: center;	
+			color:black;
+			
+		}
+		.banner5 img{
+			box-shadow: 5px 5px 5px grey;
+		}
+		.banner5 img:hover{
+			opacity: 0.5;
+		}
+/*---------------------------------------------------------------------------------------*/
+.banner6{
+	position: relative;
+	height:650px;
+}
+.banner6 fieldset{
+	position: absolute;
+	left: 250px;
+	background-color: antiquewhite;
+	padding:20px;
+	width: 40%;
+	top: 50px;
+	font-size: 20px;
+}
+.banner6 form{
+	position: relative;
+	left: 35%;
+}
+.banner6 legend {
+	text-align: center;
+	color: red;
+	font-size: 50px;
+}
+.banner6 .nhaphoten{
+	padding:10px;
+}
+.banner6 .nutgui{
+	padding:10px;
+	background-color:#94C0E8;
+	width:150px;
+}	
+.banner6 img{
+	position: absolute;
+	top:100px;
+	right: 250px;
+}
+/*---------------------------------------------------------------------------------------*/	
+.banner7{
+	position: relative;
+	height: 400px;
+	background-color:#E3E0E0
+	}
+		.banner7 .grid-container{
+			position: absolute;
+			top:50px;
+			left: 200px;
+			width: 90%;
+			display: grid;
+			grid-template-columns: auto auto auto auto auto auto;
+			}	
+		.banner7 .item{
+			position: relative;
+			top:10px;
+			padding: 10px;
+			width: 30%;
+			text-align: center;	
+			color:black;	
+		}
+
+/*---------------------------------------------------------------------------------------*/
+.footer{
+	position: relative;
+	top:400px;
+	height: 50px;
+	background-color: #b3e260
+}
+		.footer h3{
+			position: absolute;
+			top:-5px;
+			left: 45%;
+			color: white
+		}

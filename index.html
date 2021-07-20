@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>GIFTVN</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+<!----------------------------------------------------------------------------------->
+	<div class="header1">
+		<img src="img/logo2png.png"  height="150px" alt=""/>
+		<h4>Register </h4>
+		<form>  <label>  </label>
+				<input class="user" type="text" placeholder=" user name" autofocus>
+				<input class="button" type=submit value="Login">
+		</form>
+		
+				
+	</div>
+	
+	
+<div class="header2">
+	
+	</div>
+<!----------------------------------------------------------------------------------->
+<div class="banner1">
+	<!--Start Slide--------------------------------------------------------------------------------->		
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+			    <img src="img/banner2a.jpg" style="width:100%">
+			  <div class="text">GIFT TOGETHER</div>
+				
+			</div>
+			<div class="mySlides fade">
+			 <img src="img/banner2b.jpg" style="width:100%">
+			  <div class="text">CHARITY & GROUP GIFT</div>
+			</div>
+			<div class="mySlides fade">
+			  <img src="img/banner2c.jpg" style="width:100%">
+			  <div class="text">MEANINGFULL GIFT</div>
+			</div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span> 
+			  <span class="dot" onclick="currentSlide(2)"></span> 
+			  <span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
+			<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+				  slides[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+				  dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			}
+			</script>
+	<!---End Slide-------------------------------------------------------------------------------->
+	    
+	</div>
+	<div class="banner2">
+	 
+		<img src="img/background2a.jpg" width="100%"  alt=""/>
+			<div class="dropdown1">
+			<h3>ABOUT US</h3>
+					<div class="dropcontent">
+						<p>GiftVN was started in Singapore in January 2016, by a very busy mom named Theresa. Theresa has 3 young children and spends far too much time shopping for birthday gifts for her children’s friends and her friends’ kids. She realized how much time and effort goes into all that – and only to notice that many gifts get duplicated, tossed aside, or are simply not appreciated!
+						Amid all these birthday parties, she envisioned a way that gift-giving would be meaningful for the recipient, simple for the giver, healthy for the environment, and beneficial to local community. 
+						</p>
+					</div>
+			</div>
+			<div class="dropdown2">
+					<h3>BLOGS</h3>
+					<div class="dropcontent">
+						<p>The following article was originally published on SecondsGuru and is published with explicit permission from the co-founders of SecondsGuru. SecondsGuru is a green initiative that advocates eco-friendly practices and sustainable living. Visit their website to find out more about their latest happenings!
+ 						A birthday bash is a time for indulgence, and we parents are often so intent on creating that 1 fabulous day that we forget the rules we teach our kids the other 364 days of the year.
+						We don’t count the number of sweets on the plate, give in to tantrums, say yes to a late night request, and so on. And why not, it is a special day!
+						</p>
+					</div>
+			</div>	
+	  		<div class="dropdown3">
+					<h3>PARTNERS</h3>
+					<div class="dropcontent">
+						<p> - Fusspot & Foodie is a first-of-its-kind, online food business that focusses on healthy eats for kids made using fresh, honest ingredients.<br> 
+							- Sammyeve is a design studio specialising in beautiful personalised art and gifts for children.<br>
+							- The Studio Loft is a boutique photography studio with an all women team that helps you capture those special moments.
+						 </p>	
+					</div>
+			</div>	
+	</div>
+<!----------------------------------------------------------------------------------->	
+	
+	<div class="banner3">
+		<h2 class="animate__animated animate__bounce">HOW IT WORKS <br><br>
+		 DONATE WHILE YOU CELEBRATE.  CELEBRATE TOGETHER, EVEN WHILE APART.		</h2>
+		<div class="grid-container">
+			<div class="item ">
+		   		<img src="img/c1.png" width="125"  alt=""/> 
+				<h3> INVITE</h3>
+				<p>Create and managee-vites for family and friends</p>
+			</div>
+			<div class="item ">
+		   		<img src="img/c2.png" width="125" alt=""/>
+				<h3> COLLECT</h3>
+				<p>Raise funds for a group gift and your chosen charity.  Family and friends contribute online.</p>
+			</div>
+			<div class="item ">
+		    	<img src="img/c3.png" width="125" alt=""/> 
+				<h3>SHARE</h3>
+				<p>We split the funds between you and your charity once your party is over. </p>
+			</div>
+		</div>
+	<a href="https://tuoitre.vn/"><h4> CREAT AN EVEN</h4></a>
+	</div>
+<!----------------------------------------------------------------------------------->	
+<div class="banner4">
+		<div class="grid-container">
+			<div class="item item1">
+		   		<p>A Gift party makes a difference.  You could have had any other kind of party, but you have decided to do something extra special and help someone else in need – that’s something to celebrate!   As I’ve always tried to tell my kids, giving is just as important as getting, and by celebrating with Gift-It-Forward, you are making a difference to someone’s life. 
+			 </p>
+			</div>
+			<div class="item item2">
+		   		<img src="img/b1.jpg" width="100%"  alt=""/> 
+			</div>
+			<div class="item item3">
+		   		<img src="img/b3.jpg" width="100%"  alt=""/> 
+			</div>
+			<div class="item item4">
+		   		
+				<p>We want our kids to grow up kind. We also want our kids to be grateful for what they have, and the greatest gift that parents can teach their children is generosity itself. By becoming role models themselves, parents can inspire their children to give back while enhancing their own well-being. 
+				Teaching your kids the spirit of giving while highlighting the importance of helping the less-privileged goes a long way towards helping them grow into productive and kind members of society. 
+				Here are 4 reasons why and how you ought to share the spirit of giving with your kids </p>
+			</div>
+			<div class="item item5">
+		   		<p>Kids who engage in acts of givings, as well as acts of volunteerism, are more likely to have a greater respect for others, possess stronger leadership skills, and have a better understanding of citizenship that carries over into adulthood.
+				Moreover, as volunteering connects you to others, your children will be able to develop strong interpersonal skills, allow them to make new friends and boost their self-esteem and confidence.  
+				How you can get your kids to be interested in volunteering is by highlighting how good it feels to volunteer. You can do this by describing the personal satisfaction that comes from helping others and involving your kids in your giving decisions. </p>
+			</div>
+			<div class="item item6">
+		   		<img src="img/b2.jpg" width="100%"  alt=""/> 
+				
+			</div>
+		</div>
+	</div>
+<!----------------------------------------------------------------------------------->		
+	<div class="banner5">
+			<h1>PRODUCT</h1>
+			<div class="grid-container">
+				<div class="item item1"> 
+			    	<img src="img/sp1.jpg" width="545" height="402" alt=""/> 
+				</div>
+				<div class="item item2"> 
+			    	<img src="img/sp5.jpg" width="545" height="402" alt=""/> 
+				</div>
+				<div class="item item3"> 
+			    	<img src="img/sp3.jpg" width="545" height="402" alt=""/> 
+				</div>
+				<div class="item item4"> 
+			    	<img src="img/sp4.jpg" width="545" height="402" alt=""/> 
+				</div>
+				<div class="item item5"> 
+			    	<img src="img/sp2.jpg" width="545" height="402" alt=""/> 
+				</div>
+				<div class="item item6"> 
+			    	<img src="img/sp6.jpg" width="545" height="402" alt=""/> 
+				</div>
+				<div class="item item7"> 
+			    	<img src="img/sp7.jpg" width="545" height="402" alt=""/> 
+				</div>
+				<div class="item item8"> 
+			    	<img src="img/sp8.jpg" width="545" height="402" alt=""/> 
+				</div>
+				<div class="item item9"> 
+			    	<img src="img/sp9.jpg" width="545" height="402" alt=""/> 
+				</div>
+			</div>
+		</div>
+	<!----------------------------------------------------------------------------------->	
+	<div class="banner6">
+		<fieldset>
+					<legend> Enter Profile</legend>
+				<form>
+					<label>Name</label><br>
+					<input class="nhaphoten" type="text" placeholder="Input your name" autofocus><br>
+					<label>Email Adress</label><br>
+					<input type="email" placeholder="Input email"><br>
+					<label>Password</label><br>
+					<input type="password" placeholder="nhap mat khau" required><br>
+					<label >Note</label><br>
+					<textarea placeholder="Input note"></textarea><br>
+					<label>Sex</label><br>
+					<input type="radio" value="Male" name="gioitinh">Male
+					<input type="radio" value="Female" name="gioitinh">Female <br><br>
+
+					<label>Preferences</label><br>
+					<input type="checkbox">Travel<br>
+					<input type="checkbox">Read book<br>
+					<input type="checkbox">Sport<br>
+					<input type="checkbox">Shoping<br>
+					<input class="nutgui" type=submit value="Send" > 
+				</form>
+				</fieldset>
+    	<img src="img/gift-animator.gif" width="500" height="500" alt=""/> 
+		
+	</div>
+	<!----------------------------------------------------------------------------------->
+	<div class="banner7">
+			<div class="grid-container">
+				<div class="item item1"> 
+					<img src="img/iface.jpg" width="269" height="269" alt=""/>  
+				</div>
+				<div class="item item2"> 
+   	    			<img src="img/igoogle.jpg" width="269" height="269" alt=""/> </div>
+				<div class="item item3"> 
+   	    			<img src="img/ipinterest.jpg" width="269" height="269" alt=""/> </div>
+				<div class="item item4"> 
+    	    		<img src="img/itwiter.jpg" width="269" height="269" alt=""/> </div>
+				<div class="item item5"> 
+	    	    	<img src="img/iyoutube.jpg" width="269" height="269" alt=""/> </div>
+				<div class="item item6"> 
+	    	    	<img src="img/ibehance.jpg" width="269" height="269" alt=""/> </div>
+				</div>
+	
+<div class="footer">
+		<h3> COPYRIGHT BY GIFTVN</h3>
+	</div>
+</body>
+</html>
