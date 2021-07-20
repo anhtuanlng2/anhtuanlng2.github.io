@@ -22,7 +22,7 @@ body{
 			padding:5px;
 			font-size: 13px;
 			background-color: #E4E1E1;
-			box-shadow: 2px 2px 2px 
+			box-shadow: 2px 2px 2px; 
 		}
 		.header1 h4:hover {
 			opacity: 0.5;
@@ -257,6 +257,7 @@ body{
 			padding:10px;
 			color: white;
 			background-color: #74d8ce;
+			box-shadow: 2px 2px 2px gray;
 		}
 		.banner3 h4:hover {
 			color:black;
